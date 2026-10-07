@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Table</title>
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1>Student Registration</h1>
+        <nav>
+            <a href="#home">Home</a>|
+            <a href="#form">Registration Form</a>|
+            <a href="table.html" target="_blank">Student Details</a>|
+            <a href="#about me">About Me</a>
+        </nav>
+    </header>
+   <hr>
+   <main>
+    <section id="home">
+         <img src="image/myimg.jpg" alt="image" width="400px" type="image/.jpg"> <br>
+                <pr>The IT field is a great place to learn, grow, and build a successful career. Technology changes every day, so continuous learning and improving our skills are important. By learning programming, web development, and new technologies, we can create useful solutions and achieve our career goals. Hard work, patience, and a willingness to learn can help us succeed in the IT industry.</pr>
+        </section>
+        <section id="form">
+          <h2>Registration Form</h2>
+           <table>
+            <form>
+
+                    <tr>
+
+                        <td>
+                            <label for="name">Name</label>
+                        </td>
+                         <td>
+                                <input id="name" type="text" placeholder="Enter the Name">
+                            
+                        </td>
+                    
+                    <tr>
+                        <td>
+                            <label>Date of Birth</label>
+                        </td> 
+                        <td>
+                            <input type="date" style="width: 68%;">
+                        </td>
+                    </tr>
+
+                    <tr>
+
+                        <td> 
+                            <label>Gender</label>
+                        </td> 
+                        <td>
+                            <input type="radio" name="Gender" value="Male">Male
+                            <input type="radio" name="Gender" value="Female">Female
+                            <input type="radio" name="Gender" value="Other">Other
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                         </td>
+                          <td><input id="email" type="email" placeholder="Enter the email"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Course</label>
+                        </td>
+                         <td> 
+                            <select>
+                                <option>--Select course--</option>
+                                <option value="C++">C++</option>
+                                <option value="java">Java</option>
+                                <option value="python">Python</option>
+                            
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Upload your Resume</label>
+                        </td>
+                         <td>
+                            <input type="file" accept=".pdf" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="reset">
+                        </td>
+                        <td>
+                            <input type="submit">
+                        </td>
+                    </tr>
+                    </form>
+                </table>
+            
+          
+        </section>
+   </main>
+   <hr>
+   <footer>
+    <section style="text-align: center;" id="about me">
+        <b style="color: blue;">About Me</b><br>
+    <pr>parthiban@example.com | +91 90000 12345</pr> <br>
+            <pr>No. 24, Green Park Street, Anna Nagar West, Chennai-600101</pr>
+    </section>
+   </footer>
+    
+</body>
+</html>
