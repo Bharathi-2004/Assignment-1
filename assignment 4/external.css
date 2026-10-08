@@ -1,0 +1,7 @@
+#external{
+    text-align: center;
+    background-color: lightgray;
+    border-top: 3px solid red;
+    border-top-left-radius: 200px;
+    margin-top: 10px;
+}
