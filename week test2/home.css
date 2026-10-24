@@ -1,0 +1,85 @@
+*{
+    border: 0;
+
+}
+section{
+       border-radius: 25px;
+
+}
+body{
+    background-image: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    height: 600px;
+    width: 1200px;
+    display: flex;
+   margin-top: 75px;
+   margin-left: 100px;
+   border-radius: 25px;
+   
+.section1{
+    display: flex;
+    flex-direction: column;
+     width: 100%;
+     
+
+}
+.img1{
+        width: 100%;
+            max-width: px;
+            min-height: 530px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            border-radius: 25px;
+}
+.img2{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+          
+}
+
+.section2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+     background: #2c205e;
+           
+}
+.textfrom{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+
+}
+textarea.form-control {
+            min-height: 50px;
+            width: 157px;
+            font-size: 10px;
+            border-radius: 10px;
+            
+            
+        }
+button{
+    background-color: orange;
+    height: 35px;
+    width: 105px;
+    border-radius: 25px;
+}
+button:hover{
+    background-color: rgba(255, 166, 0, 0.596);
+}
+input,select{
+    border-radius: 25px;
+}
+
+
+
+   
